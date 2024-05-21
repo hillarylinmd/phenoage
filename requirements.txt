@@ -1,4 +1,4 @@
 streamlit
 numpy
 pandas
-langchain-openai
+langchain-openai 0.1.7
