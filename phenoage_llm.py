@@ -118,6 +118,18 @@ def parse_lab_report(lab_report):
 def main():
     st.title("Phenoage Calculator")
     st.write("Enter your labwork results to calculate your phenoage.")
+    st.write("Phenoage is a measure of biological age based on a set of biomarkers. It is calculated using a linear combination of various biomarkers and age, and is used to estimate the rate of aging and mortality risk.")
+    st.write("Please provide the following values from your lab report to calculate your phenoage:")
+    st.write("- Albumin (g/L)")
+    st.write("- Creatinine (umol/L)")
+    st.write("- Glucose (mmol/L)")
+    st.write("- C Reactive Protein (mg/L)")
+    st.write("- Lymphocyte Percent (%)")
+    st.write("- Mean Cell Volume (fL)")
+    st.write("- Red Blood Cell Distribution Width (%)")
+    st.write("- Alkaline Phosphatase (U/L)")
+    st.write("- White Blood Cell Count (10^9/L)")
+    st.write("- Chronological Age, preferably to the tenth decimal, e.g. 64.2 (years)")
 
     lab_report = st.text_area("Paste your lab report here:", height=200)
 
