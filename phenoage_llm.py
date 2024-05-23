@@ -120,6 +120,8 @@ def main():
     st.write("Enter your labwork results to calculate your phenoage.")
     st.write("Phenoage is a measure of biological age based on a set of biomarkers. It is calculated using a linear combination of various biomarkers and age, and is used to estimate the rate of aging and mortality risk.")
     st.write("Please provide the following values from your lab report to calculate your phenoage:")
+    st.write("Reference paper: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5940111/")
+    st.write("Levine ME, Lu AT, Quach A, et al. An epigenetic biomarker of aging for lifespan and healthspan. Aging (Albany NY). 2018;10(4):573-591. doi:10.18632/aging.101414")
     st.write("- Albumin (g/L)")
     st.write("- Creatinine (umol/L)")
     st.write("- Glucose (mmol/L)")
